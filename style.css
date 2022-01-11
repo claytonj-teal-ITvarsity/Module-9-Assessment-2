@@ -1,0 +1,46 @@
+body{  
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#local{
+    width: 100%;
+    background-color: black;
+    padding:  15px 0;
+    margin: 0;
+    
+    font-family: "Railway" , sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;    
+    float: top;
+}
+
+
+#cities td{
+    border: 3px solid black;
+    padding: 10px;
+    
+    font-size: 30px ;
+    font-style: oblique;
+    color: black;
+    background: rgba(200 ,200, 200, .5);
+  
+}
+
+# cities tr:nth-child(even){
+    background-color: grey;
+}
+
+.col1{
+    width: 10%;
+}
+.col2{
+   width: 45%; 
+}
